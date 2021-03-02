@@ -1,0 +1,168 @@
+# carton snapshot format: version 1.0
+DISTRIBUTIONS
+  Capture-Tiny-0.48
+    pathname: D/DA/DAGOLDEN/Capture-Tiny-0.48.tar.gz
+    provides:
+      Capture::Tiny 0.48
+    requirements:
+      Carp 0
+      Exporter 0
+      ExtUtils::MakeMaker 6.17
+      File::Spec 0
+      File::Temp 0
+      IO::Handle 0
+      Scalar::Util 0
+      perl 5.006
+      strict 0
+      warnings 0
+  FFI-CheckLib-0.27
+    pathname: P/PL/PLICEASE/FFI-CheckLib-0.27.tar.gz
+    provides:
+      FFI::CheckLib 0.27
+    requirements:
+      ExtUtils::MakeMaker 0
+      perl 5.006
+  FFI-Platypus-1.34
+    pathname: P/PL/PLICEASE/FFI-Platypus-1.34.tar.gz
+    provides:
+      FFI::Build 1.34
+      FFI::Build::File::Base 1.34
+      FFI::Build::File::C 1.34
+      FFI::Build::File::CXX 1.34
+      FFI::Build::File::Library 1.34
+      FFI::Build::File::Object 1.34
+      FFI::Build::MM 1.34
+      FFI::Build::MM::FBX 1.34
+      FFI::Build::Platform 1.34
+      FFI::Platypus 1.34
+      FFI::Platypus::API 1.34
+      FFI::Platypus::Buffer 1.34
+      FFI::Platypus::Bundle 1.34
+      FFI::Platypus::Closure 1.34
+      FFI::Platypus::ClosureData 1.34
+      FFI::Platypus::Constant 1.34
+      FFI::Platypus::DL 1.34
+      FFI::Platypus::Function 1.34
+      FFI::Platypus::Function::Function 1.34
+      FFI::Platypus::Function::Wrapper 1.34
+      FFI::Platypus::Internal 1.34
+      FFI::Platypus::Lang 1.34
+      FFI::Platypus::Lang::ASM 1.34
+      FFI::Platypus::Lang::C 1.34
+      FFI::Platypus::Lang::Win32 1.34
+      FFI::Platypus::Legacy 1.34
+      FFI::Platypus::Memory 1.34
+      FFI::Platypus::Record 1.34
+      FFI::Platypus::Record::Meta 1.34
+      FFI::Platypus::Record::TieArray 1.34
+      FFI::Platypus::ShareConfig 1.34
+      FFI::Platypus::Type 1.34
+      FFI::Platypus::Type::PointerSizeBuffer 1.34
+      FFI::Platypus::Type::StringArray 1.34
+      FFI::Platypus::Type::StringPointer 1.34
+      FFI::Platypus::TypeParser 1.34
+      FFI::Platypus::TypeParser::Version0 1.34
+      FFI::Platypus::TypeParser::Version1 1.34
+      FFI::Probe 1.34
+      FFI::Probe::Runner 1.34
+      FFI::Probe::Runner::Builder 1.34
+      FFI::Probe::Runner::Result 1.34
+      FFI::Temp 1.34
+    requirements:
+      Capture::Tiny 0
+      ExtUtils::CBuilder 0
+      ExtUtils::MakeMaker 7.12
+      ExtUtils::ParseXS 3.30
+      FFI::CheckLib 0.05
+      IPC::Cmd 0
+      JSON::PP 0
+      List::Util 1.45
+      constant 1.32
+      perl 5.008004
+  Module-Build-0.4231
+    pathname: L/LE/LEONT/Module-Build-0.4231.tar.gz
+    provides:
+      Module::Build 0.4231
+      Module::Build::Base 0.4231
+      Module::Build::Compat 0.4231
+      Module::Build::Config 0.4231
+      Module::Build::Cookbook 0.4231
+      Module::Build::Dumper 0.4231
+      Module::Build::Notes 0.4231
+      Module::Build::PPMMaker 0.4231
+      Module::Build::Platform::Default 0.4231
+      Module::Build::Platform::MacOS 0.4231
+      Module::Build::Platform::Unix 0.4231
+      Module::Build::Platform::VMS 0.4231
+      Module::Build::Platform::VOS 0.4231
+      Module::Build::Platform::Windows 0.4231
+      Module::Build::Platform::aix 0.4231
+      Module::Build::Platform::cygwin 0.4231
+      Module::Build::Platform::darwin 0.4231
+      Module::Build::Platform::os2 0.4231
+      Module::Build::PodParser 0.4231
+    requirements:
+      CPAN::Meta 2.142060
+      Cwd 0
+      Data::Dumper 0
+      ExtUtils::CBuilder 0.27
+      ExtUtils::Install 0
+      ExtUtils::Manifest 0
+      ExtUtils::Mkbootstrap 0
+      ExtUtils::ParseXS 2.21
+      File::Basename 0
+      File::Compare 0
+      File::Copy 0
+      File::Find 0
+      File::Path 0
+      File::Spec 0.82
+      Getopt::Long 0
+      Module::Metadata 1.000002
+      Perl::OSType 1
+      Pod::Man 2.17
+      TAP::Harness 3.29
+      Text::Abbrev 0
+      Text::ParseWords 0
+      perl 5.006001
+      version 0.87
+  Object-Pad-0.36
+    pathname: P/PE/PEVANS/Object-Pad-0.36.tar.gz
+    provides:
+      Object::Pad 0.36
+      Object::Pad::MOP::Class 0.36
+      Object::Pad::MOP::Method 0.36
+      Object::Pad::MOP::Slot 0.36
+    requirements:
+      ExtUtils::CBuilder 0
+      Module::Build 0.4004
+      XS::Parse::Sublike 0.10
+      XS::Parse::Sublike::Builder 0.10
+      indirect 0
+      perl 5.016
+  XS-Parse-Sublike-0.11
+    pathname: P/PE/PEVANS/XS-Parse-Sublike-0.11.tar.gz
+    provides:
+      XS::Parse::Sublike 0.11
+      XS::Parse::Sublike::Builder 0.11
+    requirements:
+      ExtUtils::CBuilder 0
+      Module::Build 0.4004
+      perl 5.016
+  indirect-0.39
+    pathname: V/VP/VPIT/indirect-0.39.tar.gz
+    provides:
+      indirect 0.39
+    requirements:
+      Carp 0
+      Config 0
+      ExtUtils::MakeMaker 0
+      File::Spec 0
+      IO::Handle 0
+      IO::Select 0
+      IPC::Open3 0
+      POSIX 0
+      Socket 0
+      Test::More 0
+      XSLoader 0
+      lib 0
+      perl 5.008001
